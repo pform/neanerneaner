@@ -1,6 +1,15 @@
 import React from "react";
 import Link from "next/link";
 import { BookOpen, ShieldCheck, ArrowRight, ArrowLeft } from "lucide-react";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Nerian Savior — Germanic Origins of the Neaner Surname",
+  description: "Explore the ancient linguistical roots of the Neaner surname, deriving from 'nerian' (to nourish, save, and protect) in medieval Germanic history.",
+  alternates: {
+    canonical: "/etymology/nerian-savior",
+  },
+};
 
 export default function NerianSaviorPage() {
   return (

@@ -1,6 +1,15 @@
 import React from "react";
 import Link from "next/link";
 import { Compass, ShieldCheck, ArrowRight, ArrowLeft } from "lucide-react";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Nearer Border — Topographical Origins of the Neaner Surname",
+  description: "Linguistic mapping of the topographical surname Neaner, historically belonging to families residing near parish limits, boundary marks, or lockgates.",
+  alternates: {
+    canonical: "/etymology/nearer-border",
+  },
+};
 
 export default function NearerBorderPage() {
   return (

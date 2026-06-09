@@ -1,6 +1,15 @@
 import React from "react";
 import Link from "next/link";
 import { Layers, ShieldCheck, ArrowRight, ArrowLeft } from "lucide-react";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Spelling Shifts — Orthographical Surname Variations of Neaner",
+  description: "Historical census ledger tracing phonetic spelling shifts including Nehner, Nener, Nänner, and Neaner across Prussian parish registers.",
+  alternates: {
+    canonical: "/etymology/spelling-shifts",
+  },
+};
 
 export default function SpellingShiftsPage() {
   return (

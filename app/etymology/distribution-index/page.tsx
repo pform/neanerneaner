@@ -1,6 +1,15 @@
 import React from "react";
 import Link from "next/link";
 import { Globe, ShieldCheck, ArrowRight, ArrowLeft } from "lucide-react";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Distribution Index — Surname Frequency & Geographic Mapping",
+  description: "Explore the global geographical frequency, rarity metrics, and population concentration density vectors of individuals bearing the Neaner name.",
+  alternates: {
+    canonical: "/etymology/distribution-index",
+  },
+};
 
 export default function DistributionIndexPage() {
   return (

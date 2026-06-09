@@ -20,8 +20,56 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "neaner.com — Premium Domain for Sale & Neaner Surname Heritage Portal",
+  metadataBase: new URL("https://neaner.com"),
+  title: {
+    default: "neaner.com — Premium Domain for Sale & Neaner Surname Heritage Portal",
+    template: "%s | neaner.com",
+  },
   description: "Acquire neaner.com: A ultra-rare, high-authority 6-letter .com domain. Perfect for the Neaner family registry, a digital estate, or personalized family business. Submit your offer securely.",
+  keywords: [
+    "neaner",
+    "neaner meaning",
+    "neaner.com",
+    "neaner domain",
+    "neaner surname",
+    "neaner family crest",
+    "neaner etymology",
+    "germanic surnames",
+    "nerian meaning",
+    "domain portfolio",
+    "domain for sale",
+    "surname search",
+  ],
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://neaner.com",
+    siteName: "neaner.com Heritage Registry",
+    title: "neaner.com — Premium Domain for Sale & Neaner Surname Heritage Portal",
+    description: "Acquire neaner.com: A ultra-rare, high-authority 6-letter .com domain. Perfect for the Neaner family registry, a digital estate, or personalized family business. Submit your offer securely.",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "neaner.com — Premium Domain for Sale & Neaner Surname Heritage Portal",
+    description: "Acquire neaner.com: A ultra-rare, high-authority 6-letter .com domain. Perfect for the Neaner family registry, a digital estate, or personalized family business.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  verification: {
+    google: "google-site-verification-placeholder-code-12345",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

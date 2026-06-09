@@ -93,10 +93,15 @@ export default function Footer() {
         </div>
 
         {/* Related Portfolio Crosslinking (SEO Goldmine) directly targeting actual domains */}
-        <div className="border-b border-stone-900 pb-10">
-          <h4 className="text-xs bg-stone-900 text-amber-400 border border-stone-800 tracking-widest font-mono font-black uppercase mb-6 px-4 py-1.5 rounded-lg inline-block">
-            Listing Partner Premium Portfolios
-          </h4>
+        <div className="border-b border-stone-900 pb-10 flex flex-col gap-6">
+          <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+            <h4 className="text-xs bg-stone-900 text-amber-400 border border-stone-800 tracking-widest font-mono font-black uppercase px-4 py-1.5 rounded-lg inline-block">
+              Listing Partner Premium Portfolios
+            </h4>
+            <Link href="/other-assets" className="text-xs font-mono font-black text-amber-500 hover:text-amber-400 flex items-center gap-1.5 bg-stone-900 hover:bg-stone-800 border border-stone-800 px-3.5 py-2.5 rounded-xl transition-all">
+              Interactive Asset Explorer ➔
+            </Link>
+          </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 text-xs sm:text-sm font-mono">
             <a 
               href="https://boobclub.com" 
@@ -193,7 +198,7 @@ export default function Footer() {
 
         <div className="border-t border-stone-900 pt-8 flex justify-center text-center">
           <p className="text-stone-500 text-[10px] sm:text-xs uppercase font-mono tracking-wider font-semibold">
-            WEBSITE GENERATED WITH <a href="https://www.feelize.com" target="_blank" rel="noopener noreferrer" className="text-amber-400 hover:text-amber-300 underline decoration-amber-400/30 hover:decoration-amber-300/80 transition-all font-black">FEELIZE</a> AI
+            WEBSITE GENERATED WITH <a href="https://www.feelize.com/start" target="_blank" rel="noopener noreferrer" className="text-amber-400 hover:text-amber-300 underline decoration-amber-400/30 hover:decoration-amber-300/80 transition-all font-black">FEELIZE</a> AI
           </p>
         </div>
       </div>

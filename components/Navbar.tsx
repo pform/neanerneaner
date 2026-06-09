@@ -14,6 +14,7 @@ export default function Navbar() {
     { href: "/etymology/spelling-shifts", label: "Spelling Shifts" },
     { href: "/etymology/distribution-index", label: "Distribution Index" },
     { href: "/seo-rank-simulator", label: "SEO Simulator" },
+    { href: "/other-assets", label: "Other Assets" },
   ];
 
   return (

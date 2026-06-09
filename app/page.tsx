@@ -1,7 +1,6 @@
-"use client";
-
 import React from "react";
 import Link from "next/link";
+import { Metadata } from "next";
 import {
   ShieldCheck,
   Cpu,
@@ -13,6 +12,14 @@ import {
   CheckCircle,
   HelpCircle,
 } from "lucide-react";
+
+export const metadata: Metadata = {
+  title: "neaner.com — Premium Domain for Sale & Neaner Surname Heritage Portal",
+  description: "Acquire the ultra-rare neaner.com domain. Access the definitive digital registry, ancient etymology records, and historical surname tracing archives.",
+  alternates: {
+    canonical: "https://neaner.com",
+  },
+};
 
 // Elite Domain Metrics
 const DOMAIN_DNA = [
@@ -98,14 +105,12 @@ export default function NeanerAcquisitionPage() {
             </div>
 
             <div className="flex flex-wrap gap-4 pt-3">
-              <button
-                onClick={() => {
-                  document.getElementById("acquisition-hub")?.scrollIntoView({ behavior: "smooth" });
-                }}
-                className="px-8 py-3.5 rounded-full bg-stone-900 hover:bg-amber-500 hover:text-stone-955 text-white font-bold text-sm tracking-tight shadow-md hover:shadow-lg transition-all cursor-pointer transform hover:-translate-y-0.5 duration-200"
+              <a
+                href="#acquisition-hub"
+                className="px-8 py-3.5 rounded-full bg-stone-900 hover:bg-amber-500 hover:text-stone-955 text-white font-bold text-sm tracking-tight shadow-md hover:shadow-lg transition-all cursor-pointer transform hover:-translate-y-0.5 duration-200 text-center"
               >
                 Acquire Domain Name
-              </button>
+              </a>
             </div>
           </div>
 
