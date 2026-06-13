@@ -135,17 +135,17 @@ Their planned business or private usage is: "${plannedUse}".
 Generate a professional broker review in JSON. Analyze the offer based on standard domain market conditions:
 - 6-letter dot-coms are high-value, highly sought assets.
 - Typical baseline valuations for rare, organic pronounceable last name domains range between $5,000 and $25,000+.
-- If their offer is below $3,500, explain politely but firmly that the listing reserve is higher, but we will register their interest.
-- If their offer is $3,500 or higher, recommend immediate purchase or bid review via GoDaddy, indicating next broker steps.
+- If their offer is below $8,399, explain politely but firmly that the actual buy-it-now listing price is $8,399, but we will register their offer.
+- If their offer is $8,399 or higher, recommend immediate purchase/transfer via GoDaddy, indicating next broker steps.
 
 JSON Structure:
 {
   "offerReceived": ${offerAmount},
   "marketStatus": "<e.g. Standard Entry Level Offer, High-Value Priority Bid, or Under Reserve Valuation>",
-  "estimatedMarketWorth": "$7,500 - $18,500 USD",
+  "estimatedMarketWorth": "$8,399 USD",
   "appraisalRating": "<A narrative paragraph giving the professional reasoning for this evaluation, mentioning spelling, syllable flow, and SEO weight>",
   "brokerNextStep": "<Explicit, professional instructions on how to finalize the deal securely using GoDaddy (GoDaddy Auctions / GoDaddy Brokerage) as our exclusive transaction and transfer partner>",
-  "isLikelyAccepted": ${offerAmount >= 6500}
+  "isLikelyAccepted": ${offerAmount >= 8399}
 }
 
 Do NOT wrap the output in markdown code blocks. Return ONLY the raw JSON string.`;

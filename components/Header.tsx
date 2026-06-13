@@ -8,7 +8,7 @@ export default function Header() {
     <header className="sticky top-0 z-50 flex flex-col w-full">
       {/* Top Header Bar */}
       <div className="border-b border-stone-200 bg-[#FAF9F5]/95 backdrop-blur-md">
-        <div id="header-container" className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between gap-4">
+        <div id="header-container" className="max-w-7xl mx-auto px-6 lg:px-8 py-4 flex items-center justify-between gap-4">
           <div className="flex items-center gap-3">
             <Link href="/" className="group flex items-center gap-1.5">
               <span className="font-display text-3xl font-extrabold tracking-tight text-stone-900 group-hover:text-amber-700 transition-colors">

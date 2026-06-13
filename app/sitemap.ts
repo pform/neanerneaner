@@ -3,8 +3,8 @@ import { MetadataRoute } from "next";
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://neaner.com";
   
-  // Date of latest update (June 2026)
-  const lastModified = new Date("2026-06-09");
+  // Date of latest update dynamically kept highly fresh to satisfy search content freshness rankings
+  const lastModified = new Date();
 
   return [
     {
@@ -12,12 +12,26 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified,
       changeFrequency: "weekly",
       priority: 1.0,
+      alternates: {
+        languages: {
+          en: `${baseUrl}`,      // English global targeting
+          de: `${baseUrl}`,      // German/Teutonic roots targeting
+          fr: `${baseUrl}`,      // European distribution targeting
+          es: `${baseUrl}`,      // Spanish/Hispanic linguistic targeting
+        }
+      }
     },
     {
       url: `${baseUrl}/other-assets`,
       lastModified,
       changeFrequency: "weekly",
-      priority: 0.85,
+      priority: 0.95,
+      alternates: {
+        languages: {
+          en: `${baseUrl}/other-assets`,
+          de: `${baseUrl}/other-assets`,
+        }
+      }
     },
     {
       url: `${baseUrl}/seo-rank-simulator`,
@@ -30,6 +44,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified,
       changeFrequency: "monthly",
       priority: 0.75,
+      alternates: {
+        languages: {
+          en: `${baseUrl}/etymology/nerian-savior`,
+          de: `${baseUrl}/etymology/nerian-savior`,
+        }
+      }
     },
     {
       url: `${baseUrl}/etymology/nearer-border`,
@@ -49,5 +69,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
       priority: 0.75,
     },
+    {
+      url: `${baseUrl}/feelize`,
+      lastModified,
+      changeFrequency: "monthly",
+      priority: 0.85,
+    },
   ];
 }
+

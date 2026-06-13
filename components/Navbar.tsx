@@ -19,7 +19,7 @@ export default function Navbar() {
 
   return (
     <div className="bg-stone-900 border-b border-stone-800 py-3 shadow-md">
-      <div className="max-w-6xl mx-auto px-6 flex items-center justify-between gap-4">
+      <div className="max-w-7xl mx-auto px-6 lg:px-8 flex items-center justify-between gap-4">
         <span className="font-display font-extrabold text-amber-500 tracking-wider text-sm hidden lg:inline-block">
           SURNAME INDEX
         </span>

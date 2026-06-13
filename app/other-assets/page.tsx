@@ -31,6 +31,126 @@ interface DomainAsset {
 
 const PARTNER_DOMAINS: DomainAsset[] = [
   {
+    domain: "ambeth.com",
+    category: "Creative/Tech",
+    badge: "Phonetic Multi-Syllable",
+    description: "An elegant, premium brandable. Combines a soft phonetic structure with dynamic versatility, perfect for luxury lifestyle labels, high-end design agencies, or secure digital banking solutions.",
+    estValue: "$4,800+",
+    characters: 6,
+    tld: ".com (Registry Standard)",
+    useCases: ["Luxury Design Label", "Digital Banking App", "Premium Lifestyle", "Corporate Identity"]
+  },
+  {
+    domain: "appliancecraft.com",
+    category: "Creative/Tech",
+    badge: "Highly Descriptive Brand",
+    description: "The definitive authority domain for premium household appliance repairs, high-end culinary device hardware, smart home integrations, and automated appliance servicing frameworks.",
+    estValue: "$3,400+",
+    characters: 14,
+    tld: ".com (Registry Standard)",
+    useCases: ["Smart Home App", "Appliance Maintenance Portal", "IoT Device Systems", "E-commerce Depot"]
+  },
+  {
+    domain: "aquaves.com",
+    category: "Medical/Health",
+    badge: "Organic Biotech Brand",
+    description: "A fluid, natural wellness and moisture-focused terminology blend. Excellent fit for sustainable hydration technology, cellular skincare therapeutics, or premium bio-water filtration systems.",
+    estValue: "$5,250+",
+    characters: 7,
+    tld: ".com (Registry Standard)",
+    useCases: ["Skincare Therapeutics", "Hydration Science SaaS", "Clean Water Filtration", "Eco Wellness Portal"]
+  },
+  {
+    domain: "arkba.com",
+    category: "LLLL/Short",
+    badge: "Rare 5-Letter Asset",
+    description: "Rare, ultra-short 5-letter brand identifier. Its military-grade structural strength is ideal for secure data vaults, decentralized blockchain registers, or global security architectures.",
+    estValue: "$8,200+",
+    characters: 5,
+    tld: ".com (Registry Standard)",
+    useCases: ["Cryptographic Data Vault", "Asset Custody Platform", "Secure Blockchain Ledger", "Financial Risk Control"]
+  },
+  {
+    domain: "armycore.com",
+    category: "SaaS/Tech",
+    badge: "High Authority Label",
+    description: "An incredibly authoritative, high-impact legacy keyword combination. Built for high-reliability software, physical tactical security applications, developer networks, or heavy industrial training suites.",
+    estValue: "$6,900+",
+    characters: 8,
+    tld: ".com (Registry Standard)",
+    useCases: ["Tactical Logistics App", "Military Grade Software", "DevOps Command Portal", "Physical Defense Registry"]
+  },
+  {
+    domain: "arogram.com",
+    category: "Creative/Tech",
+    badge: "Geometric Tech Native",
+    description: "A modern, highly geometric phonetic prefix blend. A natural match for modern analytical telemetry diagrams, automated workflow graph systems, or design illustration APIs.",
+    estValue: "$4,500+",
+    characters: 7,
+    tld: ".com (Registry Standard)",
+    useCases: ["Workflow Index Software", "Developer API Services", "Data Analytics Graphics", "Process Automation"]
+  },
+  {
+    domain: "awesomedom.com",
+    category: "Creative/Tech",
+    badge: "Marketing Powerhouse",
+    description: "The ultimate marketing-centric showcase domain. Engineered specifically for custom web builder portfolios, domain registrar directories, web hosting portals, or active developer landing zones.",
+    estValue: "$3,800+",
+    characters: 10,
+    tld: ".com (Registry Standard)",
+    useCases: ["Web Hosting Hub", "Domain Listing Matrix", "Custom Landing Architect", "Creator Page Studio"]
+  },
+  {
+    domain: "babeport.com",
+    category: "Adult/Lifestyle",
+    badge: "High Organic Volume",
+    description: "A premium, high-converting entertainment gateway and brandable lifestyle hub. Offers immense visual memorability, organic index potential, and market authority in viral community platforms.",
+    estValue: "$7,200+",
+    characters: 8,
+    tld: ".com (Registry Standard)",
+    useCases: ["Social Creator Hub", "Adult Lifestyle Portal", "Premium Media Network", "Affiliate Redirect Vault"]
+  },
+  {
+    domain: "bakelet.com",
+    category: "Creative/Tech",
+    badge: "Warm Consumer Brand",
+    description: "Delightfully short, warm, and highly brandable culinary or hardware suffix. Perfectly suited for automated kitchen software, gourmet subscription services, or localized craft bakery registers.",
+    estValue: "$4,100+",
+    characters: 7,
+    tld: ".com (Registry Standard)",
+    useCases: ["Culinary Appliance App", "Gourmet Subscription", "Smart Kitchen Recipe Hub", "Bakery Point of Sale"]
+  },
+  {
+    domain: "battistas.com",
+    category: "Creative/Tech",
+    badge: "Heritage Surname",
+    description: "A legendary, premium Italian heritage surname domain holding immense prestige. Exceptional candidacy for a premium dining franchise, artisanal coffee importer, or family estate registry.",
+    estValue: "$6,500+",
+    characters: 9,
+    tld: ".com (Registry Standard)",
+    useCases: ["Artisan Import Label", "Premium Hospitality Hub", "Fine Dining Directory", "Family Estate Portal"]
+  },
+  {
+    domain: "beamspread.com",
+    category: "Creative/Tech",
+    badge: "Descriptive Precision",
+    description: "Superior physical and architectural terminology mapping direct light diffusion. Ideal for engineering, architectural lighting firms, advanced projection systems, or signal mapping telemetry software.",
+    estValue: "$5,400+",
+    characters: 10,
+    tld: ".com (Registry Standard)",
+    useCases: ["Architectural Lighting SaaS", "Optics Manufacturing", "Data Signal Mapping", "Laser and Sensor Arrays"]
+  },
+  {
+    domain: "bluntgasm.com",
+    category: "Adult/Lifestyle",
+    badge: "Edgy Culture Label",
+    description: "A highly provocative, trend-focused lifestyle and high-impact culture indicator. Tailored directly for the rapidly growing premium cannabis lounge networks, legal herbal dispensaries, or lifestyle publication logs.",
+    estValue: "$5,800+",
+    characters: 9,
+    tld: ".com (Registry Standard)",
+    useCases: ["Cannabis Lifestyle Hub", "Herbal Wellness Portal", "Vape E-commerce Store", "Cultural Discussion Board"]
+  },
+  {
     domain: "boobclub.com",
     category: "Adult/Lifestyle",
     badge: "High-Traffic Authority",
@@ -41,34 +161,34 @@ const PARTNER_DOMAINS: DomainAsset[] = [
     useCases: ["Adult Community Forum", "Luxury Wellness Club", "Viral Social Hub", "Subscription Platform"]
   },
   {
-    domain: "kataf.com",
+    domain: "caviz.com",
     category: "LLLL/Short",
-    badge: "Rare 5-Letter Brand",
-    description: "Extremely memorable, phonetic 5-letter brand identifier. Its clean pronunciation makes it an elite candidate for a modern global logistics firm, financial index, or AI SaaS infrastructure.",
-    estValue: "$9,800+",
+    badge: "Elite 5-Letter Brand",
+    description: "An exquisite, modern 5-letter brand name. Offers crisp phonetic balance, conveying precision and speed. The ultimate asset for software compilers, visual search engines, or AI-powered computer vision platforms.",
+    estValue: "$9,200+",
     characters: 5,
     tld: ".com (Registry Standard)",
-    useCases: ["International Logistics", "AI/SaaS Infrastructure", "Global Fintech Group", "Freight Intelligence"]
+    useCases: ["Computer Vision AI", "Visual Search Engine", "Creative Design Agency", "Agile Software Suite"]
   },
   {
-    domain: "jalh.com",
-    category: "LLLL/Short",
-    badge: "Ultra-Rare LLLL Acronym",
-    description: "An ultra-scarce 4-letter (LLLL) .com domain asset. Short domains are rapidly appreciating assets, providing immense prestige, instant visual memory retention, and absolute acronym security.",
-    estValue: "$14,000+",
-    characters: 4,
-    tld: ".com (Registry Standard)",
-    useCases: ["Technology Incubator", "Private Capital Fund", "B2B Venture Hub", "Premium Acronym Rebrand"]
-  },
-  {
-    domain: "subhauler.com",
+    domain: "cellbeep.com",
     category: "SaaS/Tech",
-    badge: "Commercial Authority",
-    description: "High-authority descriptive commercial asset. The definition commands search engine prominence, designed specifically for massive cargo brokers, sub-hauling logistics platforms, or supply chain APIs.",
-    estValue: "$7,500+",
-    characters: 9,
+    badge: "Mobile Infrastructure",
+    description: "An ultra-distinctive legacy alert and communications label. Perfectly matched for real-time mobile push infrastructure, server alerts, telecommunication APIs, or dispatch notification dashboards.",
+    estValue: "$5,500+",
+    characters: 8,
     tld: ".com (Registry Standard)",
-    useCases: ["Freight Dispatching Platform", "Supply Chain Software", "Local Hauling Logistics", "Fleet Management App"]
+    useCases: ["Real-time Push Server", "Mobile Dispatch App", "Emergency Notification System", "Developer SMS API"]
+  },
+  {
+    domain: "chosenspot.com",
+    category: "Creative/Tech",
+    badge: "Location Authority",
+    description: "A prime location, tourism, and ranking indicator. Excellent branding authority for localized travel software engines, real estate selector hubs, or digital mapping systems.",
+    estValue: "$4,200+",
+    characters: 10,
+    tld: ".com (Registry Standard)",
+    useCases: ["Premium Travel App", "Real Estate Selector", "Local Food Guide Portal", "Interactive Maps Tool"]
   },
   {
     domain: "fockstate.com",
@@ -81,6 +201,46 @@ const PARTNER_DOMAINS: DomainAsset[] = [
     useCases: ["Quantum Computing Dev Tools", "Scientific Research Portal", "High-Performance Cloud Infrastructure", "Engineering Simulation"]
   },
   {
+    domain: "halfstash.com",
+    category: "SaaS/Tech",
+    badge: "Playful Tech Storage",
+    description: "A clever, highly memorable storage-focused nomenclature. Perfect fit for secured client backup systems, developer code-snippet libraries, or automated cloud assets repository solutions.",
+    estValue: "$4,600+",
+    characters: 9,
+    tld: ".com (Registry Standard)",
+    useCases: ["Developer Snippet Hub", "Cloud Backup Software", "Collaborative Asset Drawer", "File Transfer Portal"]
+  },
+  {
+    domain: "houseofterra.com",
+    category: "Creative/Tech",
+    badge: "Sustainable Premium",
+    description: "An sophisticated, eco-conscious brandable masterpiece. Captures the growing consumer preference for organic architecture, sustainable design houses, clean-energy developments, or natural ceramics.",
+    estValue: "$7,800+",
+    characters: 12,
+    tld: ".com (Registry Standard)",
+    useCases: ["Eco-friendly Architecture", "Organic Interior Design", "Sustainable Real Estate", "Fine Stoneware Boutique"]
+  },
+  {
+    domain: "jalh.com",
+    category: "LLLL/Short",
+    badge: "Ultra-Rare LLLL Acronym",
+    description: "An ultra-scarce 4-letter (LLLL) .com domain asset. Short domains are rapidly appreciating assets, providing immense prestige, instant visual memory retention, and absolute acronym security.",
+    estValue: "$14,000+",
+    characters: 4,
+    tld: ".com (Registry Standard)",
+    useCases: ["Technology Incubator", "Private Capital Fund", "B2B Venture Hub", "Premium Acronym Rebrand"]
+  },
+  {
+    domain: "kataf.com",
+    category: "LLLL/Short",
+    badge: "Rare 5-Letter Brand",
+    description: "Extremely memorable, phonetic 5-letter brand identifier. Its clean pronunciation makes it an elite candidate for a modern global logistics firm, financial index, or AI SaaS infrastructure.",
+    estValue: "$9,800+",
+    characters: 5,
+    tld: ".com (Registry Standard)",
+    useCases: ["International Logistics", "AI/SaaS Infrastructure", "Global Fintech Group", "Freight Intelligence"]
+  },
+  {
     domain: "linkwhore.com",
     category: "Adult/Lifestyle",
     badge: "Descriptive Powerhouse",
@@ -89,16 +249,6 @@ const PARTNER_DOMAINS: DomainAsset[] = [
     characters: 9,
     tld: ".com (Registry Standard)",
     useCases: ["Affiliate Advertising Network", "Viral Retargeting Ledger", "Social Media Bio Optimizers", "Redirect Registry Matrix"]
-  },
-  {
-    domain: "beamspread.com",
-    category: "Creative/Tech",
-    badge: "Descriptive Precision",
-    description: "Superior physical and architectural terminology mapping direct light diffusion. Ideal for engineering, architectural lighting firms, advanced projection systems, or signal mapping telemetry software.",
-    estValue: "$5,400+",
-    characters: 10,
-    tld: ".com (Registry Standard)",
-    useCases: ["Architectural Lighting SaaS", "Optics Manufacturing", "Data Signal Mapping", "Laser and Sensor Arrays"]
   },
   {
     domain: "medizer.com",
@@ -119,6 +269,126 @@ const PARTNER_DOMAINS: DomainAsset[] = [
     characters: 9,
     tld: ".com (Registry Standard)",
     useCases: ["Robotic Orchestration App", "Industrial Automation Systems", "Machine Learning Compiler", "Smart Factory IoT Hub"]
+  },
+  {
+    domain: "palmheld.com",
+    category: "SaaS/Tech",
+    badge: "Mobile Hardware Brand",
+    description: "A premium legacy mobile device terminology pairing. Immensely relevant for responsive touch systems, hand-held telemetry equipment, mobile-first SaaS tools, or gaming hardware consoles.",
+    estValue: "$6,300+",
+    characters: 8,
+    tld: ".com (Registry Standard)",
+    useCases: ["Mobile-first CRM Portal", "Developer Touch UI Framework", "Handheld IoT Systems", "Gaming Consoles Store"]
+  },
+  {
+    domain: "releafcanna.com",
+    category: "Medical/Health",
+    badge: "Certified Herbal Authority",
+    description: "Superlative, trusted medical herbal wellness pairing. Conveys natural relief, organic medicine, and high product compliance. Designed for state-certified dispensaries, holistic therapy clinics, or botanical tracking software.",
+    estValue: "$8,500+",
+    characters: 11,
+    tld: ".com (Registry Standard)",
+    useCases: ["State-Certified Dispensary", "Holistic Relief Clinic", "Botanical Tracking Software", "Wellness Infusion Shop"]
+  },
+  {
+    domain: "snackcore.com",
+    category: "Creative/Tech",
+    badge: "Trendy Consumer Asset",
+    description: "An incredibly relevant, modern consumer-packaged snack label. Captures subculture internet design trends, perfectly suited for subscription boxes, high-velocity protein products, or dynamic food reviewer networks.",
+    estValue: "$5,100+",
+    characters: 9,
+    tld: ".com (Registry Standard)",
+    useCases: ["Snack Subscription Box", "Gourmet Protein Brand", "Snack Review System", "Modern E-commerce App"]
+  },
+  {
+    domain: "subhauler.com",
+    category: "SaaS/Tech",
+    badge: "Commercial Authority",
+    description: "High-authority descriptive commercial asset. The definition commands search engine prominence, designed specifically for massive cargo brokers, sub-hauling logistics platforms, or supply chain APIs.",
+    estValue: "$7,500+",
+    characters: 9,
+    tld: ".com (Registry Standard)",
+    useCases: ["Freight Dispatching Platform", "Supply Chain Software", "Local Hauling Logistics", "Fleet Management App"]
+  },
+  {
+    domain: "surfmatic.com",
+    category: "SaaS/Tech",
+    badge: "Fluid Automation",
+    description: "A beautiful fusion of fluid oceanic agility and automated programmatic rules. Perfect name for visual web scrapers, dynamic website browser emulators, or high-speed wave energy generators.",
+    estValue: "$5,900+",
+    characters: 9,
+    tld: ".com (Registry Standard)",
+    useCases: ["Automated Web Scraper", "Browser Emulator API", "Oceanic Energy Tech", "Dynamic Surfing Analytics"]
+  },
+  {
+    domain: "taijan.com",
+    category: "LLLL/Short",
+    badge: "Elite 6-Letter Brand",
+    description: "An elite, clean, highly-pronounceable 6-letter dot-com domain name. Excellent candidates for international joint ventures, high-tech engineering consulting groups, or premium manufacturing hubs.",
+    estValue: "$8,700+",
+    characters: 6,
+    tld: ".com (Registry Standard)",
+    useCases: ["International Consultance", "Advanced Semiconductor Tech", "Private Equity Hub", "Clean Energy Group"]
+  },
+  {
+    domain: "thrillport.com",
+    category: "Creative/Tech",
+    badge: "Adventure Tourism",
+    description: "An explosive, highly engaging experiential booking and tour portal. Engineered directly for adrenaline excursions, extreme sport listings, customized travel vouchers, or adventure simulation parks.",
+    estValue: "$5,200+",
+    characters: 10,
+    tld: ".com (Registry Standard)",
+    useCases: ["Extreme Sports Directory", "Adrenaline Tour Booking", "Immersive Experience App", "Travel Voucher Market"]
+  },
+  {
+    domain: "vegginess.com",
+    category: "Medical/Health",
+    badge: "Clean Eating Domain",
+    description: "The ultimate fresh, organic plant-based diet descriptor. Unrivaled candidacy for nationwide vegan product manufacturers, premium dynamic meal planners, or sustainable agricultural catalogs.",
+    estValue: "$7,500+",
+    characters: 9,
+    tld: ".com (Registry Standard)",
+    useCases: ["Plant-Based Recipe Suite", "Organic Vegan Delivery", "Sustainable Farming Index", "Nutritional Coaching App"]
+  },
+  {
+    domain: "vehicraft.com",
+    category: "SaaS/Tech",
+    badge: "Advanced Transportation",
+    description: "An absolute master-standard transportation and telemetry pairing. Engineered for autonomous vehicle management fleets, heavy machinery assembly software, or flight dynamics telemetry systems.",
+    estValue: "$6,900+",
+    characters: 9,
+    tld: ".com (Registry Standard)",
+    useCases: ["Fleet Management Platform", "Autonomous Vehicle software", "Machinery Dispatch API", "Custom Aviation Registry"]
+  },
+  {
+    domain: "wikisonic.com",
+    category: "SaaS/Tech",
+    badge: "Sonic Audio Asset",
+    description: "An exceptional, database-heavy audio and sonic documentation index brand. Ideal for crowdsourced sound-effect platforms, audiophile dictionary networks, or developer synthesizer software databases.",
+    estValue: "$6,100+",
+    characters: 9,
+    tld: ".com (Registry Standard)",
+    useCases: ["Sound Effect Database", "Audiophile Community Wiki", "Developer Synthesizer API", "Crowdsourced Music Index"]
+  },
+  {
+    domain: "wimsic.com",
+    category: "Creative/Tech",
+    badge: "Creative Delight",
+    description: "A beautifully compact, highly phonetic brand name inspired by whimsical ideas. Perfectly scaled for interactive kids' applications, luxury creative agencies, or premium toy marketplaces.",
+    estValue: "$5,400+",
+    characters: 6,
+    tld: ".com (Registry Standard)",
+    useCases: ["Interactive Kids App", "Design and Branding Firm", "Artisanal Toy Market", "Playful Social Network"]
+  },
+  {
+    domain: "zpewand.com",
+    category: "Creative/Tech",
+    badge: "Quantum Magic Brand",
+    description: "A highly innovative, futuristic energy or magical-tech developer label. Designed for advanced quantum physics simulations, interactive web games, or creative designer utility software.",
+    estValue: "$4,600+",
+    characters: 7,
+    tld: ".com (Registry Standard)",
+    useCases: ["Interactive Web Games", "Physics Simulation API", "Digital Designer Utility", "Futuristic Tech Label"]
   }
 ];
 
@@ -187,7 +457,7 @@ export default function OtherAssetsPage() {
         }}
       />
 
-      <main id="other-assets-main" className="flex-1 max-w-6xl w-full mx-auto px-6 py-10 sm:py-16 flex flex-col gap-10 sm:gap-14 bg-transparent z-10 relative">
+      <main id="other-assets-main" className="flex-1 max-w-7xl w-full mx-auto px-6 lg:px-8 py-10 sm:py-16 flex flex-col gap-10 sm:gap-14 bg-transparent z-10 relative">
         
         {/* Page Hero Section */}
         <div id="assets-hero" className="flex flex-col gap-4 text-left border-b border-stone-200 pb-10">
@@ -259,7 +529,7 @@ export default function OtherAssetsPage() {
         </div>
 
         {/* Directory Grid */}
-        <div id="assets-cards-grid" className="grid grid-cols-1 md:grid-cols-2 gap-6 relative">
+        <div id="assets-cards-grid" itemScope itemType="https://schema.org/ItemList" className="grid grid-cols-1 md:grid-cols-2 gap-6 relative">
           <AnimatePresence mode="popLayout">
             {filteredDomains.map((asset) => (
               <motion.div
@@ -270,7 +540,28 @@ export default function OtherAssetsPage() {
                 exit={{ opacity: 0, scale: 0.95 }}
                 transition={{ duration: 0.25 }}
                 className="bg-white border-2 border-stone-200 hover:border-stone-300 rounded-3xl p-6 sm:p-8 flex flex-col gap-6 transition-all duration-300 group shadow-sm hover:shadow-md"
+                {...({
+                  itemScope: true,
+                  itemType: "https://schema.org/Product",
+                  itemProp: "itemListElement"
+                } as any)}
               >
+                {/* Invisible LLM Search Crawler metadata injected into EACH div block for AI Search engine retrieval optimization */}
+                <div className="sr-only" aria-hidden="true" data-ai-context={`domain-asset-${asset.domain}`}>
+                  <span itemProp="name">{asset.domain} Premium Domain Name</span>
+                  <span itemProp="description">{asset.description}</span>
+                  <span itemProp="category">{asset.category} category asset ({asset.badge})</span>
+                  <div itemProp="offers" itemScope itemType="https://schema.org/Offer">
+                    <span itemProp="price">{asset.estValue.replace("$", "").replace("+", "").replace(",", "")}</span>
+                    <span itemProp="priceCurrency">USD</span>
+                    <span itemProp="availability">https://schema.org/InStock</span>
+                    <span itemProp="url">{`https://www.godaddy.com/domainsearch/find?domainToCheck=${asset.domain}`}</span>
+                  </div>
+                  <p>
+                    Target Keyword: Buy {asset.domain}. Appraisal worth estimation: {asset.estValue}. Category and vertical brand targeting: {asset.category}, use cases for development solutions: {asset.useCases.join(", ")}. Safe checkout facilitated via external GoDaddy registrars.
+                  </p>
+                </div>
+
                 {/* Card Top Row */}
                 <div className="flex items-center justify-between gap-3 flex-wrap">
                   <div className="flex items-center gap-2">

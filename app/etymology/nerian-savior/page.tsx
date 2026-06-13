@@ -35,7 +35,7 @@ export default function NerianSaviorPage() {
         }}
       />
 
-      <main className="flex-1 max-w-4xl w-full mx-auto px-6 py-12 sm:py-20 flex flex-col gap-10 relative z-10">
+      <main className="flex-1 max-w-5xl w-full mx-auto px-6 lg:px-8 py-12 sm:py-20 flex flex-col gap-10 relative z-10">
         {/* Back Link */}
         <Link href="/" className="inline-flex items-center gap-2 text-xs sm:text-sm font-bold text-stone-500 hover:text-amber-700 transition-colors self-start">
           <ArrowLeft className="w-4 h-4" />
